@@ -1,0 +1,11 @@
+# Example YAML file
+#data_file: ../../Twitter/Data/Volkova/volkova_SocialVec_political_augmented_2020.csv
+data_file: ../data/gender_dataset.csv.gz
+source_for_modeling: aug
+use_existing_train_test_split: True
+train_test_split_file: ../data/train_test_split_20230602.xlsx
+SocialVec_version: "2020"
+minimal_socialvec_len: 10
+field_to_classify: gender
+model_name: gender_model
+
